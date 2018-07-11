@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+    <string name="title_activity_all_event">All Event</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Nurul Islam</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="map_place_api_key">AIzaSyC83tj6AGn4_k5FSc71V4jAJdDddlF626Q</string>
+    <string name="nearby_api_key">AIzaSyD8cnZMDp7tJYSo1ptKlxexDv8zQAYAiY0</string>
+    <string name="direction_api_key">AIzaSyClMdXVr1xurYtKrzb588OOs18HtXO1qE4</string>
+    <string name="weather_api_key">d8367b854bf4bd6ae33f584ead6f9320</string>
+
+    <string-array name="search_type">
+        <item name="restaurante">Restaurante</item>
+        <item name="cafe">Cafe</item>
+        <item name="atm">Atm</item>
+        <item name="bank">Bank</item>
+        <item name="gas_station">Gas Station</item>
+        <item name="hospital">Hospital</item>
+        <item name="supermarket">Shopping Mall</item>
+        <item name="department_store">Department Store</item>
+        <item name="mosque">Mosque</item>
+        <item name="bus_station">Bus Station</item>
+        <item name="train_station">Train Station</item>
+        <item name="travel_agency">Travel Agency</item>
+        <item name="taxi_stand">Taxi Stand</item>
+        <item name="pharmacy">Pharmacy</item>
+        <item name="post_office">Post Office</item>
+        <item name="hair_care">Hair Care</item>
+        <item name="beauty_salon">Beauty Salon</item>
+        <item name="hindu_temple">Hindu Temple</item>
+        <item name="church">Church</item>
+        <item name="police">Police</item>
+    </string-array>
+    <string-array name="distance">
+        <item name="0.5km">0.5 KM</item>
+        <item name="1km">1 KM</item>
+        <item name="1.5km">1.5 KM</item>
+        <item name="2km">2 KM</item>
+        <item name="2.5km">2.5 KM</item>
+        <item name="3km">3 KM</item>
+        <item name="4km">4 KM</item>
+        <item name="5km">5 KM</item>
+        <item name="7km">7 KM</item>
+        <item name="10km">10 KM</item>
+    </string-array>
+</resources>

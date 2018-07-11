@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/expence_border"
+    android:minHeight="50dp">
+
+    <TextView
+        android:id="@+id/directionNumberTV"
+        android:layout_width="46dp"
+        android:layout_height="match_parent"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@drawable/expence_border"
+        android:minHeight="50dp"/>
+     <TextView
+         android:id="@+id/directionTextTV"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/expence_border"
+         android:textSize="18sp"
+         android:minHeight="50dp"/>
+</LinearLayout>

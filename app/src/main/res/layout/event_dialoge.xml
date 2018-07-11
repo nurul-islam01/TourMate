@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add A New Event"
+        android:textColor="@drawable/appbackground"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"/>
+   <EditText
+       android:id="@+id/eventName"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:hint=" Enter Event Name..."
+       />
+    <EditText
+        android:id="@+id/eventStartLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint=" Your Starting Location.."/>
+    <EditText
+        android:id="@+id/eventDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint=" Your Tour Destination.."/>
+    <EditText
+        android:id="@+id/eventDeparturedate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="date"
+        android:hint=" Departure Date.."/>
+    <EditText
+        android:id="@+id/eventBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="numberDecimal"
+        android:hint=" Tour Budge.."/>
+
+</LinearLayout>

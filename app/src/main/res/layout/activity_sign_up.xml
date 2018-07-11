@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SingUpActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="SIGN UP"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"/>
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="    Type Your Name"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"/>
+
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="    Type Your Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"/>
+
+        <EditText
+            android:id="@+id/userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="    Type Your Phone"
+            android:inputType="number"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"/>
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:hint="    Type Your Password"
+        android:inputType="textPassword"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#035993"
+        android:onClick="signUp"
+        android:textColor="@color/textColor"
+        android:text="Register"/>
+    <TextView
+        android:id="@+id/errorShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

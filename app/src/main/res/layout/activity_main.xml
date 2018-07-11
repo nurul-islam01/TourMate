@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:text="LOGIN"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp" />
+    <EditText
+        android:id="@+id/signEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:hint=" Email..."
+        android:text=""
+        android:textColor="@color/textColor"
+        android:layout_marginTop="50dp"
+        android:textColorHint="@color/textColor"/>
+    <EditText
+        android:id="@+id/signPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:hint=" Password..."
+        android:text=""
+        android:inputType="textPassword"
+        android:textColorHint="@color/textColor"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#035993"
+        android:textColor="@color/textColor"
+        android:onClick="signIn"
+        android:text="Login"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="15dp"
+       android:orientation="horizontal">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Not Registered Yet?"
+           android:textSize="16sp"
+           android:textColor="@color/textColor"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="17sp"
+           android:text="Click here"
+           android:layout_marginLeft="10dp"
+           android:background="#035993"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:onClick="goSignUp"
+           android:textColor="@color/textColor"/>
+   </LinearLayout>
+    <TextView
+        android:id="@+id/singInError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
